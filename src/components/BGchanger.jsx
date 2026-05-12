@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function BGchanger() {
-  const [color, setColor] = useState("red");
+  const [color, setColor] = useState("blue");
 
   return (
     <div
@@ -15,7 +15,7 @@ function BGchanger() {
             className="outline-none px-4 py-1 rounded-full text-white shadow-lg "
             style={{ backgroundColor: "red" }}
           >
-            Red
+            red
           </button>
 
           <button
